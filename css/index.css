@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+#HOME {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../IMGE/events-heavenly-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#HOME h2 {
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+}
+#HOME span {
+  font-size: 40px;
+  color: white;
+  font-weight: normal;
+}
+#setion {
+  background-color: black;
+  height: 100%;
+  top: 0;
+  width: 200px;
+  position: absolute;
+  left: -200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#setion ul li {
+  margin-bottom: 20px;
+  font-size: 30px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#setion ul li a {
+  text-decoration: none;
+  color: white;
+}
+#open {
+  position: absolute;
+  right: -150px;
+  font-size: 40px;
+  cursor: pointer;
+}
+#sectiontwo {
+  text-align: center;
+  padding: 50px;
+}
+#sectiontwo div {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#sectiontwo div h2 {
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+#sectiontwo div .visible {
+  display: none;
+}
+#history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#history div {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+  font-size: 60px;
+}
+#end {
+  padding: 50px;
+}
+#end textarea {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  font-size: 20px;
+}
+#end p span {
+  color: red;
+}
+#end p {
+  font-size: 26px;
+}
